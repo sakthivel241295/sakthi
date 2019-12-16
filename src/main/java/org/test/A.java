@@ -57,7 +57,7 @@ System.setProperty("webdriver.chrome.driver", "C:\\Users\\hp\\eclipse-sakthi\\Fb
 		Assert.assertEquals("verify url", "sakthi", user.getAttribute("value"));
 		WebElement pass = driver.findElement(By.id("pass"));
 		pass.sendKeys("12131438");
-		Assert.assertEquals("verify it", "1213143",pass.getAttribute("value") );
+		Assert.assertEquals("verify it", "12131438",pass.getAttribute("value") );
 		WebElement btn = driver.findElement(By.id("loginbutton"));
 		btn.click();
 		
